@@ -5,6 +5,4 @@ the code is working with a basic main.java tha work for calling all methods, the
 
 ![class_diagram](class_diagram.png)
 
-You want see your favorite soccer team? Choise the unofficial MLS app created by Nicolás Zapata Álzate with Java using NetBeans Enviroment. This app is created for the lab #1 of the UNIR's Course Advance Programing
-![test](SoccerLeague-Page-1.png)
 
