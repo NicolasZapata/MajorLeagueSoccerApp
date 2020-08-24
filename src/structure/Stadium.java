@@ -14,10 +14,14 @@ public class Stadium {
     public int capacity;
     
     public Stadium (String Name, int ID, String City, int Capacity){
-        Name = this.name;
-        ID = this.id;
-        City = this.city;
-        Capacity = this.capacity;
+        this.name = Name;
+        this.id = ID;
+        this.city = City;
+        this.capacity = Capacity;
+    }
+
+    public Stadium(String name){
+        this.name = name;
     }
     
 }

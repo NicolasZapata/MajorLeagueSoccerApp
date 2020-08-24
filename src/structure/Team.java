@@ -15,15 +15,16 @@ public class Team {
     public int points;
     
     public Team (String Name, int ID, String TeamCity, String Color, int Points){
-        Name = this.name;
-        ID = this.id;
-        TeamCity = this.teamCity;
-        Color = this.color;
-        Points = this.points;
+        this.name = Name;
+        this.id = ID;
+        this.teamCity = TeamCity;
+        this.color = Color;
+        this.points = Points;
     }
-
-    public void UpdatePoints(){
-        
+    
+    public Team(String name){
+        this.name = name;
     }
+    
 
 }
