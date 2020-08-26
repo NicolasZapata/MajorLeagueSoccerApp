@@ -23,11 +23,7 @@ public class Match {
     public int guestTeamGoals;
     public int result;
     
-    /**
-     * 
-     * @param HomeTeam is the team of the local area
-     * @param GuestTeam is the team to going to visit the home team
-     */
+
     public Match(int id, String homeTeam, String guestTeam, String stadium, String city, 
             String homeTeamColor, String guestTeamColor, int yellowCardHomeTeam, int yellowCardGuestTeam, 
             int homeTeamGoals, int guestTeamGoals ,int result){
@@ -69,13 +65,13 @@ public class Match {
     */
     public void PrintResult(){
         try{
-            if(homeTeamGoals > guestTeamGoals){
-                System.out.print(homeTeam + " Win the match");
+            if(this.homeTeamGoals > this.guestTeamGoals){
+                System.out.print(this.homeTeam + " Win the match");
             }
-            else if(guestTeamGoals > homeTeamGoals){
+            else if(this.guestTeamGoals > this.homeTeamGoals){
                 System.out.print(guestTeam + " Win the match");
             }
-            if(homeTeamGoals == guestTeamGoals){
+            else if(this.homeTeamGoals == this.guestTeamGoals){
                 System.out.print("Nobody Win the match, thi's a tie");
             }
         }catch(Exception exep){
