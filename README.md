@@ -57,7 +57,7 @@ Is the Stadium were two teams play each other. This class have 2 constructor, on
         this.capacity = Capacity;
     }
 ```
-And the Another initialize name only
+And the Another initialize the name only
 ```java
     public Stadium(String name){
         this.name = name;
