@@ -11,10 +11,6 @@ import structure.Team;
  */
 public class MajorLeagueSoccerApp {
     
-    
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         String team1, team2;
         int goalsTeam1, goalsTeam2;
