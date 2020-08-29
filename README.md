@@ -63,8 +63,10 @@ And the Another initialize the name only
         this.name = name;
     }
 ```
-## Screenshot
-![screnshot](Screenshot.png)
+## Screenshots
+![screnshot](doc/img/Win.png)
+![screnshot](doc/img/Lose.png)
+![screnshot](doc/img/Tie.png)
 
 ## The Executable
 the jar file it's in the dist folder

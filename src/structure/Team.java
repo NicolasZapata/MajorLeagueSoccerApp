@@ -8,11 +8,11 @@ package structure;
  * @author NICOLÁS ZAPATA ÁLZATE
  */
 public class Team {
-    public String name;
-    public int id;
-    public String teamCity;
-    public String color;
-    public int points;
+    private String name;
+    private int id;
+    private String teamCity;
+    private String color;
+    private int points;
     
     public Team (String Name, int ID, String TeamCity, String Color, int Points){
         this.name = Name;

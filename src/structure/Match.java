@@ -8,20 +8,20 @@ package structure;
  * @author NICOLÁS ZAPATA ÁLZATE
  */
 public class Match {
-    public int id;
-    public String homeTeam;
-    public String guestTeam;
-    public String stadium;
-    public String city;
-    public String homeTeamColor;
-    public String guestTeamColor;
-    public int yellowCardHomeTeam;
-    public int yellowCardGuestTeam;
-    public int redCardHomeTeam;
-    public int redCardGuestTeam;
-    public int homeTeamGoals;
-    public int guestTeamGoals;
-    public int result;
+    private int id;
+    private String homeTeam;
+    private String guestTeam;
+    private String stadium;
+    private String city;
+    private String homeTeamColor;
+    private String guestTeamColor;
+    private int yellowCardHomeTeam;
+    private int yellowCardGuestTeam;
+    private int redCardHomeTeam;
+    private int redCardGuestTeam;
+    private int homeTeamGoals;
+    private int guestTeamGoals;
+    private int result;
     
 
     public Match(int id, String homeTeam, String guestTeam, String stadium, String city, 
@@ -72,7 +72,7 @@ public class Match {
                 System.out.print(guestTeam + " Win the match");
             }
             else if(this.homeTeamGoals == this.guestTeamGoals){
-                System.out.print("Nobody Win the match, thi's a tie");
+                System.out.print("Nobody Win the match, this is a tie");
             }
         }catch(Exception exep){
             System.out.println("Result System failed: " + exep.getMessage());

@@ -12,7 +12,7 @@ import structure.Team;
 public class MajorLeagueSoccerApp {
     
     public static void main(String[] args) {
-        String team1, team2;
+        String team1, team2, stadium;
         int goalsTeam1, goalsTeam2;
         
         //stadium = new Stadium("New York Stadium");
@@ -25,17 +25,18 @@ public class MajorLeagueSoccerApp {
         System.out.println("Print the guest team: ");
         team2 = scanner.nextLine();
         
+        System.out.println("Print the stadium: ");
+        stadium = scanner.nextLine();
+        
         System.out.println("Print the home team's goals: ");
         goalsTeam1 = scanner.nextInt();
         
         System.out.println("Print the guest team's goals: ");
         goalsTeam2 = scanner.nextInt();
         
-        calcResult(team1, team2, goalsTeam1, goalsTeam2);
-    }
-    public static void calcResult(String team1, String team2, int goalsTeam1, int goalsTeam2){
-        Match match = new Match(562, team1, team2, "New York", "Purple", "Red", 0, 0, 0, 0, 0);
+        Match match = new Match(562, team1, team2, stadium, "Purple", "Red", 0, 0, goalsTeam1, goalsTeam2, 0);
         match.PrintResult();
     }
+
     
 }
