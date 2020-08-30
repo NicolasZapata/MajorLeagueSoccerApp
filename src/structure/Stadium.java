@@ -8,10 +8,10 @@ package structure;
  * @author NICOLÁS ZAPATA ÁLZATE
  */
 public class Stadium {
-    private String name;
+    public String name;
     private int id;
     private String city;
-    private int capacity;
+    public int capacity;
     
     public Stadium (String Name, int ID, String City, int Capacity){
         this.name = Name;

@@ -8,7 +8,7 @@ package structure;
  * @author NICOLÁS ZAPATA ÁLZATE
  */
 public class Team {
-    private String name;
+    public String name;
     private int id;
     private String teamCity;
     private String color;
@@ -20,10 +20,6 @@ public class Team {
         this.teamCity = TeamCity;
         this.color = Color;
         this.points = Points;
-    }
-    
-    public Team(String name){
-        this.name = name;
     }
     
 
